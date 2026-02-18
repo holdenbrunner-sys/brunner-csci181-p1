@@ -25,10 +25,10 @@
   flex-direction: column-reverse;
 }
 #hero {
-  background-image: url();
+  background-image: url(./images/pexels-cottonbro-3661194.svg);
   background-size: cover;
   width: 100%;
-  height: 360px;
+  height: 60rem;
   background-repeat: no-repeat;
   text-align: center;
 }
@@ -37,13 +37,33 @@
   text-align: center;
   text-decoration: underline;
 }
-.about-us-text {
-  color: rgb(114, 114, 121);
-}
 #qual-header {
-  background-color: rgb(207, 29, 29);
-  color: rgb(255, 255, 255);
+  background-color: rgb(117, 188, 56);
+  color: rgba(255, 255, 255, 0.853);
 }
 #testimonials {
-  background-color: blanchedalmond;
+  background-color: rgb(117, 188, 56);
+  color: rgb(255, 255, 255, 0.853);
+}
+p {
+  color: rgb(103, 100, 94);
+  font-size: 1.2rem;
+  max-width: 50rem;
+}
+.about-us-text {
+  color: rgb(103, 100, 94);
+  text-align: center;
+  max-width: 50rem;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+.parent-testimonial {
+  color: rgb(103, 100, 94);
+  max-width: 50.1rem;
+  font-size: 1.6rem;
+}
+.parent {
+  color: rgb(103, 100, 94);
+  max-width: 50.1rem;
+  font-size: 1.6rem;
 }
